@@ -7,6 +7,12 @@ import './Navigation.css'
 const Navigation =( ) => {
     return (
         <Header >
+        <button className="navigation__menu-btn">
+          <span />
+          <span />
+          <span />
+        </button> 
+
         <h1 className="navigation__title">Guillermo Lara</h1>
 
         <nav className="navigation__header-nav">
