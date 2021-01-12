@@ -22,11 +22,11 @@ const Navigation =( ) => {
             </li>
         
         <li>
-            <NavLink to="">ABOUT ME</NavLink>
+            <NavLink to="/">ABOUT ME</NavLink>
             </li>
         
         <li>
-            <NavLink to="/auth">PORTFOLIO</NavLink>
+            <NavLink to="">PORTFOLIO</NavLink>
             </li>
     
       

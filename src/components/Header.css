@@ -12,6 +12,9 @@
     background: #42242e;
 }
 
+main {
+  margin-top: 5rem;
+}
 
 @media (min-width: 768px) {
     .main-header {

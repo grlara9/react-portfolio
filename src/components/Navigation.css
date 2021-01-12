@@ -20,6 +20,11 @@
     background: white;
   }
 
+  .navigation__header-nav {
+    display: none;
+    
+  }
+
 .nav-links{
     list-style: none;
     display: flex;
