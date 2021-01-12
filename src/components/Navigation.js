@@ -1,6 +1,7 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom';
-
+import GitHubIcon from '@material-ui/icons/GitHub';
+import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import Header from './Header'
 import './Navigation.css'
 
@@ -28,7 +29,13 @@ const Navigation =( ) => {
         <li>
             <NavLink to="">PORTFOLIO</NavLink>
             </li>
-    
+            <li>
+            <NavLink to=""><GitHubIcon /></NavLink>
+            </li>
+
+            <li>
+            <NavLink to=""><LinkedInIcon /></NavLink>
+            </li>
       
     </ul>
         </nav>

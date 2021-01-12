@@ -5,8 +5,7 @@ import guillermo from '../images/guillermo.jpg'
 
 const Aboutme =()=>{
     return(
-        <div className="place-item">
-            <div className="card">
+       
                 <div className="place-item__content">
                     <div className="place-item__image"> 
                         <img src={guillermo} alt="my profile picture" />
@@ -19,8 +18,7 @@ const Aboutme =()=>{
                         I specialized working on the backend programming. Enough about me, go checkout some of my work. </p>
                     </div>
                 </div>
-            </div>
-        </div>
+           
     );
 }
 export default Aboutme
