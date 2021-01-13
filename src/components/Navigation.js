@@ -27,7 +27,7 @@ const Navigation =( ) => {
             </li>
         
         <li>
-            <NavLink to="">PORTFOLIO</NavLink>
+            <NavLink to="/portfolio">PORTFOLIO</NavLink>
             </li>
             <li>
             <NavLink to=""><GitHubIcon /></NavLink>
