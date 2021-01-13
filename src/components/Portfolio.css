@@ -5,38 +5,49 @@
     align-items: center;
     justify-content: center;
     padding: 0 4px;
-    margin: 0 auto;
+    
 }
 .project{
     display: flex;
     flex-direction: column;
     align-items: center;
-    
-    
-   
     flex: 25%;
     max-width: 30%;
-  padding: 10px 5px;
-
+    padding: 10px 5px;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    margin:5px;
   
 }
 .project__title{
-    background: url('../images/google-mern.png') ;
+    
     height: 175px;
 
 }
 
+.project__specification{
+    padding: 10px 9px;
+    border-bottom: 1px solid lightgrey;
+}
+
+.project__links{
+    padding-top: 6px;
+}
+
 @media (max-width: 800px) {
     .project {
-      flex: 100%;
-      max-width: 50%;
+      flex: 50%;
+      max-width: 80%;
+      margin-top: 12px;
     }
   }
   
-  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-  @media (max-width: 600px) {
+  @media (max-width: 375px) {
     .project {
       flex: 100%;
-      max-width: 100%;
+      max-width: 90%;
+   
     }
   }
+  
+ 
