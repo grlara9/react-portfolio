@@ -19,7 +19,7 @@ const Navigation =( ) => {
         <nav className="navigation__header-nav">
         <ul className="nav-links">
         <li>
-            <NavLink to="">CONTACT</NavLink>
+            <NavLink to="/contact">CONTACT</NavLink>
             </li>
         
         <li>

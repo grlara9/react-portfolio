@@ -11,7 +11,7 @@ const Contact =()=>{
                         <input type="text" placeholder="Name" />
                         <input type="text" placeholder="Email" />
                         <textarea>Questions/ comments</textarea>
-                        <button type="submit">Submit</button>
+                        <button type="submit">Send Message</button>
 
                     </form>
                 </div>
