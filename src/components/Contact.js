@@ -10,7 +10,7 @@ const Contact =()=>{
                     <form>
                         <input type="text" placeholder="Name" />
                         <input type="text" placeholder="Email" />
-                        <textarea>Questions/ comments</textarea>
+                        <textarea cols="30" rows="5">Questions/ comments</textarea>
                         <button type="submit">Send Message</button>
 
                     </form>
