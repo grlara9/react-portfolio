@@ -13,6 +13,8 @@ body {
   font-family: 'Open Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  --primary: 237, 73, 86;
+  --color: 44, 62, 80;
 }
 
 code {

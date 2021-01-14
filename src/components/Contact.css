@@ -4,35 +4,40 @@
     align-items: center;
     height: 100vh;
     padding:35px;
+    
 }
 
 .contact > h1{
     font-weight: normal;
     font-size: 1.8rem;
+    margin-bottom: 10px;
 }
 
 .contact__container{
-    display: flex;
-    flex-direction: column;
     width: 300px;
     height: fit-content;
+    display: flex;
+    flex-direction: column;
     border:1px solid lightgray;
     border-radius: 3px;
-    margin-top: 12px;
     padding:10px;
 
 }
 
+.contact__container h5{
+    margin-bottom: 8px;
+}
+
 .contact__container form input{
     margin: 7px 0;
-    
+    width:250px;
     padding: 14px 20px;
     border: 0;
     border-radius: 5px;
     border: 2px solid rgb(var(--color));
     transition: all .25s ease;
     opacity: .2;
-    background: #f1f3f6;
+    background: #c3c8cf;
 }
 .contact__container form input:hover{
     opacity: 1;
@@ -42,9 +47,27 @@
     border: 2px solid rgb(var(--color));
     transition: all .25s ease;
     opacity: .2;
-    background: #f1f3f6;
+    background: #c3c8cf;
+    width: 290px;
 }
 
 .contact__container form textarea:hover{
     opacity: 1;
+}
+
+button{
+    border:0;
+    padding:14px 20px;
+    color: #ffffff;
+    width: 290px;
+    cursor: pointer;
+    font-size: 1,1rem;
+    background: rgb(var(--primary));
+    transition: all .25s ease;
+    margin-top: 15px;
+}
+
+button:hover{
+    transform: translate(0, -10px);
+    box-shadow: 0 10px 30px 0 rgb(var(--primary), .4);
 }

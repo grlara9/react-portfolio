@@ -8,9 +8,12 @@ const Contact =()=>{
             <h1>Contact Me</h1>
                 <div className="contact__container">
                     <form>
-                        <input type="text" placeholder="Name" />
-                        <input type="text" placeholder="Email" />
-                        <textarea cols="30" rows="5">Questions/ comments</textarea>
+                        <h5>Name</h5>
+                        <input type="text"  />
+                        <h5>Email</h5>
+                        <input type="text"  />
+                        <h5>Questions/ Comments</h5>
+                        <textarea  rows="5" />
                         <button type="submit">Send Message</button>
 
                     </form>
