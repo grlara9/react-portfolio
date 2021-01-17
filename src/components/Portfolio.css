@@ -1,9 +1,6 @@
 .portfolio{
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
     padding: 0 4px;
     
 }
@@ -11,13 +8,17 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    flex: 25%;
-    max-width: 30%;
+    flex: 1 30%;
+    
     padding: 10px 5px;
     border: 1px solid lightgrey;
     border-radius: 5px;
     margin:5px;
   
+}
+
+.project__image img{
+  max-width: 100%;
 }
 .project__title{
     
@@ -46,6 +47,7 @@
     .project {
       flex: 100%;
       max-width: 90%;
+      justify-content: center;
    
     }
   }

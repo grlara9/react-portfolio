@@ -1,15 +1,17 @@
 import React from 'react'
 import googlemern from '../images/google-mern.png'
-import './Portfolio.css';
+import './Portfolio.css'; 
 
 const Portfolio =()=>{
     return(
         <div className="portfolio">
             
             <div className="project">
-                <div className="project__title">
-                    <h2>Google Book Mern</h2>
+                <div className="project__image">
+                    <img src={googlemern} alt="project image" />
+                    <h1>Google Search Book App</h1>
                 </div>
+                
                 <div className="project__specification">
                     <p>Mern React-based Google Books Search app that displays books on user searches. 
                         Users can save them to review or purchase later.</p>

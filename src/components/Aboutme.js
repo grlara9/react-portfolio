@@ -7,11 +7,11 @@ const Aboutme =()=>{
     return(
        <div className="container">
            <div className="aboutme">
-            <div className="place-item__image"> 
+            <div className="aboutme__image"> 
                 <img src={guillermo} alt="my profile picture" />
             </div>
 
-            <div className="place-item__info">
+            <div className="aboutme__info">
                 <h1>Guillermo Lara</h1>
                 <h2>Full Stack Developer/ React Developer</h2>
                 <p>Hi, I'm Guillermo, I'm a full stack developer living in San Diego</p>
