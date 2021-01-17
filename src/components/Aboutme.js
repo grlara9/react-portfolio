@@ -19,7 +19,7 @@ const Aboutme =()=>{
     
             </div>
             <div className="aboutme__links">
-                <p><GitHubIcon /> | <LinkedInIcon /> </p>
+                <p><GitHubIcon className="links"/> | <LinkedInIcon className="links"/> </p>
             </div>
         </div>
         </div>
