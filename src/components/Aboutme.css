@@ -1,7 +1,7 @@
 .container{
-  
-  height: 100vh;
-  
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .aboutme{
@@ -9,6 +9,8 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
+  flex: 1 90%;
+
  
 }
 
@@ -20,5 +22,10 @@
 }
 
 .aboutme__info{
- 
+ width: 500px;
+ padding: 10px;
+}
+.aboutme__info p{
+  padding-top:8px;
+  
 }
