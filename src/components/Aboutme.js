@@ -3,6 +3,7 @@ import GitHubIcon from '@material-ui/icons/GitHub';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import './Aboutme.css'
 import guillermo from '../images/guillermo.jpg'
+import { Link } from 'react-router-dom';
 
 const Aboutme =()=>{
     return(
@@ -19,7 +20,8 @@ const Aboutme =()=>{
     
             </div>
             <div className="aboutme__links">
-                <p><GitHubIcon className="links"/> | <LinkedInIcon className="links"/> </p>
+                <p><a href="https://www.linkedin.com/in/guillermo-lara-7a0147161/"><GitHubIcon className="links"/></a>  | 
+               <a href="https://github.com/grlara9"><LinkedInIcon className="links"/> </a> </p>
             </div>
         </div>
         </div>

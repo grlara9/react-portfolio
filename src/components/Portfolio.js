@@ -5,7 +5,7 @@ import './Portfolio.css';
 const Portfolio =()=>{
     return(
         <div className="portfolio">
-            
+             
             <div className="project">
                 <div className="project__image">
                     <img src={googlemern} alt="project image" />

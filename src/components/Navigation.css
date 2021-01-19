@@ -1,5 +1,10 @@
 .navigation__title{
     color:#ffffff;
+   
+}
+
+.navigation__title a{
+  text-decoration: none;
 }
 
 .navigation__menu-btn{
@@ -46,6 +51,14 @@
     color: black;
     font-weight: 500;
 }
+
+.nav-links li:hover{
+  transition: all .1s ease-in-out;
+  transform: scale(1.07);
+  font-weight: bold;
+}
+
+
 @media (min-width: 768px) {
     .navigation__menu-btn {
       display: none;

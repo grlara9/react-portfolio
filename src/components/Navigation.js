@@ -14,8 +14,9 @@ const Navigation =( ) => {
           <span />
         </button> 
 
+        <NavLink to="/">
         <h1 className="navigation__title">Guillermo Lara</h1>
-
+        </NavLink>
         <nav className="navigation__header-nav">
         <ul className="nav-links">
         <li>
