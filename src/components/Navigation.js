@@ -1,11 +1,21 @@
-import React from 'react'
-import { NavLink } from 'react-router-dom';
+import React, {useState} from 'react'
+import { NavLink, Link } from 'react-router-dom';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import Header from './Header'
 import './Navigation.css'
 
 const Navigation =( ) => {
+
+    const [drawerOpen, setDrawerOpen] = useState(false)
+
+    const openDrawerHandler= () =>{
+        setDrawerOpen(true)
+    }
+
+    const closeDrawerHandler = ()=>{
+        setDrawerOpen(false)
+    }
     return (
         <Header >
         <button className="navigation__menu-btn">
