@@ -14,9 +14,13 @@ const Navigation =( ) => {
           <span />
         </button> 
 
+        <h1 className="navigation__title">
         <NavLink to="/">
-        <h1 className="navigation__title">Guillermo Lara</h1>
+            Guillermo Lara
+            
         </NavLink>
+            </h1>
+
         <nav className="navigation__header-nav">
         <ul className="nav-links">
         <li>
@@ -30,12 +34,15 @@ const Navigation =( ) => {
         <li>
             <NavLink to="/portfolio">PORTFOLIO</NavLink>
             </li>
+           
             <li>
-            <NavLink to=""><GitHubIcon /></NavLink>
+            <a href="https://www.linkedin.com/in/guillermo-lara-7a0147161/">
+                <LinkedInIcon />
+            </a>
             </li>
 
             <li>
-            <NavLink to=""><LinkedInIcon /></NavLink>
+            <a href="https://github.com/grlara9"><GitHubIcon /></a>
             </li>
       
     </ul>
