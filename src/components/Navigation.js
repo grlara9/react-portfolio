@@ -3,6 +3,8 @@ import { NavLink, Link } from 'react-router-dom';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import Header from './Header'
+import Backdrop from './Backdrop'
+import SideDrawer from './SideDrawer'
 import './Navigation.css'
 
 const Navigation =( ) => {
@@ -16,7 +18,15 @@ const Navigation =( ) => {
     const closeDrawerHandler = ()=>{
         setDrawerOpen(false)
     }
+
+
     return (
+        <React.Fragment>
+        {drawerOpen && <Backdrop onClick={closeDrawerHandler} />}
+        <SideDrawer show={drawerOpen} onClick={closeDrawerHandler}>
+          <nav className="main-navigation__drawer-nav"><NavLink /></nav>
+        </SideDrawer>
+
         <Header >
         <button className="navigation__menu-btn">
           <span />
@@ -59,7 +69,7 @@ const Navigation =( ) => {
         </nav>
 
         </Header>
-
+        </React.Fragment>
     )
 }
 export default Navigation;
