@@ -28,7 +28,7 @@ const Navigation =( ) => {
         </SideDrawer>
 
         <Header >
-        <button className="navigation__menu-btn">
+        <button className="navigation__menu-btn" onClick={openDrawerHandler}>
           <span />
           <span />
           <span />
