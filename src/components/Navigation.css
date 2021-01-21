@@ -62,7 +62,10 @@
   transition: all .1s ease-in-out;
   transform: scale(1.07);
   font-weight: bold;
+  
 }
+
+
 
 
 @media (min-width: 768px) {
@@ -89,5 +92,9 @@
       text-decoration: none;
       
     }
+
+    .nav-links a:hover{
+     color:green;
+  }
     
 }
