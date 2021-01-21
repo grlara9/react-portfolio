@@ -24,7 +24,30 @@ const Navigation =( ) => {
         <React.Fragment>
         {drawerOpen && <Backdrop onClick={closeDrawerHandler} />}
         <SideDrawer show={drawerOpen} onClick={closeDrawerHandler}>
-          <nav className="main-navigation__drawer-nav"><NavLink /></nav>
+          <nav className="main-navigation__drawer-nav">
+          <ul className="nav-links">
+            <li>
+                <NavLink to="/contact">CONTACT</NavLink>
+            </li>
+        
+            <li>
+                <NavLink to="/">ABOUT ME</NavLink>
+            </li>
+            <li>
+                <NavLink to="/portfolio">PORTFOLIO</NavLink>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/in/guillermo-lara-7a0147161/">
+                    <LinkedInIcon />
+            </a>
+            </li>
+            <li>
+                <a href="https://github.com/grlara9"><GitHubIcon /></a>
+            </li>
+        </ul>
+              
+              
+              </nav>
         </SideDrawer>
 
         <Header >
@@ -42,7 +65,7 @@ const Navigation =( ) => {
             </h1>
 
         <nav className="navigation__header-nav">
-        <ul className="nav-links">
+            <ul className="nav-links">
         <li>
             <NavLink to="/contact">CONTACT</NavLink>
             </li>

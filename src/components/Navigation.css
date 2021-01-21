@@ -31,6 +31,11 @@
     
   }
 
+  .main-navigation__drawer-nav {
+    height: 100%;
+    margin-top: 23px;
+  }
+
 .nav-links{
     list-style: none;
     display: flex;
@@ -76,10 +81,13 @@
   
     .nav-links li {
       margin: 0 0.5rem;
+  
     }
   
     .nav-links a {
       color: white;
       text-decoration: none;
+      
     }
+    
 }
