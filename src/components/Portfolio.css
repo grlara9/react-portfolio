@@ -34,6 +34,17 @@
 
 .project__links{
     padding-top: 6px;
+    width: 100%;
+    
+}
+
+.project__links button{
+  margin-left: 6px;
+  padding: 6px 18px;
+  border:none;
+  width: 48%;
+  
+
 }
 
 @media (max-width: 800px) {

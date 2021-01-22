@@ -55,8 +55,8 @@
     opacity: 1;
 }
 
-button{
-    border:0;
+.contact__container button{
+    border:0; 
     padding:14px 20px;
     color: #ffffff;
     width: 290px;
@@ -67,7 +67,7 @@ button{
     margin-top: 15px;
 }
 
-button:hover{
+.contact__container button:hover{
     transform: translate(0, -10px);
     box-shadow: 0 10px 30px 0 rgb(var(--primary), .4);
 }
