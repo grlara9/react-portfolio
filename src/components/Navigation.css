@@ -58,13 +58,20 @@
     font-weight: 500;
 }
 
+.nav-links a:hover,
+.nav-links a:active,
+.nav-links a.active {
+  background: #ffffff;
+  font-weight: bold;
+  color: #070707;
+}
+
 .nav-links li:hover{
   transition: all .1s ease-in-out;
   transform: scale(1.07);
-  font-weight: bold;
+  
   
 }
-
 
 
 
@@ -76,6 +83,7 @@
     .navigation__header-nav {
       display: block;
     }
+    
   }
 @media (min-width: 768px) {
     .nav-links {
@@ -92,9 +100,6 @@
       text-decoration: none;
       
     }
-
-    .nav-links a:hover{
-     color:green;
-  }
     
+
 }

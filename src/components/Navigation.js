@@ -26,13 +26,15 @@ const Navigation =( ) => {
         <SideDrawer show={drawerOpen} onClick={closeDrawerHandler}>
           <nav className="main-navigation__drawer-nav">
           <ul className="nav-links">
+          <li>
+                <NavLink exact to="/">ABOUT ME</NavLink>
+            </li>
+
             <li>
                 <NavLink to="/contact">CONTACT</NavLink>
             </li>
         
-            <li>
-                <NavLink to="/">ABOUT ME</NavLink>
-            </li>
+            
             <li>
                 <NavLink to="/portfolio">PORTFOLIO</NavLink>
             </li>
@@ -66,12 +68,12 @@ const Navigation =( ) => {
 
         <nav className="navigation__header-nav">
             <ul className="nav-links">
+
+            <li>
+            <NavLink to="/">ABOUT ME</NavLink>
+            </li>
         <li>
             <NavLink to="/contact">CONTACT</NavLink>
-            </li>
-        
-        <li>
-            <NavLink to="/">ABOUT ME</NavLink>
             </li>
         
         <li>
