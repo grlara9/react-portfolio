@@ -43,9 +43,17 @@
   padding: 6px 18px;
   border:none;
   width: 48%;
+
   
 
 }
+
+.project__links button:hover{
+  color:#000000;
+  background-color: #ffffff;
+}
+
+
 
 @media (max-width: 800px) {
     .project {
@@ -60,6 +68,7 @@
       
    
     }
+    
   }
   
  

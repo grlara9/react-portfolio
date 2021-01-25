@@ -17,6 +17,9 @@ const Contact =()=>{
                         <button type="submit">Send Message</button>
 
                     </form>
+                    <p>Feel free to reach out via email directly</p>
+                    <p>grlara9@gmail.com</p>
+                      <p>Or give me a call: (442)456-6887</p>
                 </div>
             </div>
         )
