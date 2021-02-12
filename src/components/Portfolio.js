@@ -1,6 +1,6 @@
 import React from 'react'
 import googlemern from '../images/google-mern.png'
-import click from '../images/click.png'
+import click from '../images/dbz2.png'
 import './Portfolio.css'; 
 
 const Portfolio =()=>{
