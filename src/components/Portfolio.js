@@ -18,8 +18,12 @@ const Portfolio =()=>{
                         Users can save them to review or purchase later.</p>
                 </div>
                 <div className="project__links">
-                    <button>hello</button>
-                    <button>Push</button>
+                    <a href="https://googlesearchappp.herokuapp.com/">
+                        <button class="demo btn btn-lg btn-outline-secondary ">Demo</button>
+                    </a>
+                    <a href="https://github.com/grlara9/google-book-search-mern">
+                        <button class="views btn btn-lg btn-outline-secondary">View</button>
+                    </a>
                 </div>
             </div>
 
