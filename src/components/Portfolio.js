@@ -1,6 +1,7 @@
 import React from 'react'
 import googlemern from '../images/google-mern.png'
 import click from '../images/dbz2.png'
+import weatherapp from '../images/weatherapp.png'
 import './Portfolio.css'; 
 
 const Portfolio =()=>{
@@ -45,7 +46,23 @@ const Portfolio =()=>{
                 </div>
             </div>
 
-           
+            <div className="project">
+            <div className="project__image">
+                    <img src={weatherapp} alt="project image" />
+                    <h1>React Weather App</h1>
+                </div>
+                <div className="project__specification">
+                    <p>A Weather app built in React js using OpenWeathermap API. User can search by typing city. Default temperature is the users location.</p>
+                </div>
+                <div className="project__links">
+                    <a href="https://grlara9.github.io/react-weather-app-hooks/">
+                        <button class="demo btn btn-lg btn-outline-secondary ">Demo</button>
+                    </a>
+                    <a href="https://github.com/grlara9/react-weather-app-hooks">
+                        <button class="views btn btn-lg btn-outline-secondary">View</button>
+                    </a>
+                </div>
+            </div>
            
         </div>
     )
