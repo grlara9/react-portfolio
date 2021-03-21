@@ -2,6 +2,7 @@ import React from 'react'
 import googlemern from '../images/google-mern.png'
 import click from '../images/dbz2.png'
 import weatherapp from '../images/weatherapp.png'
+import burger from '../images/bur.png'
 import './Portfolio.css'; 
 
 const Portfolio =()=>{
@@ -48,6 +49,24 @@ const Portfolio =()=>{
 
             <div className="project">
             <div className="project__image">
+                    <img src={bur} alt="project image" />
+                    <h1>Eat Your Burger</h1>
+                </div>
+                <div className="project__specification">
+                    <p>A burger logger with MySQL, Node, Express, Handlebars and using Sequelize.js. Eat-Da-Burger! is a restaurant app that lets users input the names of burgers they'd like to eat.</p>
+                </div>
+                <div className="project__links">
+                    <a href="https://fast-woodland-65175.herokuapp.com/">
+                        <button class="demo btn btn-lg btn-outline-secondary ">Demo</button>
+                    </a>
+                    <a href="https://github.com/grlara9/sequelizeBurger">
+                        <button class="views btn btn-lg btn-outline-secondary">View</button>
+                    </a>
+                </div>
+            </div>
+
+            <div className="project">
+            <div className="project__image">
                     <img src={weatherapp} alt="project image" />
                     <h1>React Weather App</h1>
                 </div>
@@ -63,6 +82,7 @@ const Portfolio =()=>{
                     </a>
                 </div>
             </div>
+
            
         </div>
     )
