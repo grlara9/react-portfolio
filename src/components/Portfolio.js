@@ -49,7 +49,7 @@ const Portfolio =()=>{
 
             <div className="project">
             <div className="project__image">
-                    <img src={bur} alt="project image" />
+                    <img src={burger} alt="project image" />
                     <h1>Eat Your Burger</h1>
                 </div>
                 <div className="project__specification">
