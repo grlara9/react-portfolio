@@ -1,4 +1,5 @@
 import React from 'react'
+import amazon2 from '../images/amazon2.png'
 import googlemern from '../images/google-mern.png'
 import click from '../images/dbz2.png'
 import weatherapp from '../images/weatherapp.png'
@@ -83,6 +84,24 @@ const Portfolio =()=>{
                 </div>
             </div>
 
+
+            <div className="project">
+            <div className="project__image">
+                    <img src={amazon2} alt="project image" />
+                    <h1>Amazon Clone App</h1>
+                </div>
+                <div className="project__specification">
+                    <p>Amazon Clone is a project from cleverprogrammer where you can create a product, add the products to the cart, do a payment, and watch your order history.</p>
+                </div>
+                <div className="project__links">
+                    <a href="https://clone-4aa3d.web.app/">
+                        <button class="demo btn btn-lg btn-outline-secondary ">Demo</button>
+                    </a>
+                    <a href="https://github.com/grlara9/amazon_clone">
+                        <button class="views btn btn-lg btn-outline-secondary">View</button>
+                    </a>
+                </div>
+            </div>
            
         </div>
     )
