@@ -17,6 +17,11 @@
     margin:5px;   
   
 }
+.project:hover{
+  transform: scale(1.02);
+  transition: all .2s ease-in-out;
+  border: 1px solid lightgrey;
+}
 
 .project__image img{
   max-width: 100%;
