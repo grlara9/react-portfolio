@@ -2,6 +2,7 @@ import React, {useState} from 'react'
 import { NavLink, Link } from 'react-router-dom';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
+import guillermo from '../images/guillermo.jpg'
 import Header from './Header'
 import Backdrop from './Backdrop'
 import SideDrawer from './SideDrawer'
@@ -25,10 +26,17 @@ const Navigation =( ) => {
         {drawerOpen && <Backdrop onClick={closeDrawerHandler} />}
         <SideDrawer show={drawerOpen} onClick={closeDrawerHandler}>
           <nav className="main-navigation__drawer-nav">
+          <div className="drawer__image"> 
+                <img src={guillermo} alt="my profile picture" />
+            </div>
+            <div className="title">
+                <h2>Guillermo Lara</h2>
+                <h3>San Diego, CA</h3>
+            </div>
           <ul className="nav-links">
           <li>
                 <NavLink exact to="/">ABOUT ME</NavLink>
-            </li>
+            </li> 
 
             <li>
                 <NavLink to="/contact">CONTACT</NavLink>

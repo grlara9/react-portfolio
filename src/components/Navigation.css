@@ -36,6 +36,16 @@
     margin-top: 23px;
   }
 
+  .drawer__image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .drawer__image img{
+    border-radius: 50%;
+    width: 50%;
+  }
+
 .nav-links{
     list-style: none;
     display: flex;
