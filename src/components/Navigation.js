@@ -79,7 +79,7 @@ const Navigation =( ) => {
             <ul className="nav-links">
 
             <li>
-            <NavLink to="/">ABOUT ME</NavLink>
+            <NavLink exact to="/">ABOUT ME</NavLink>
             </li>
         <li>
             <NavLink to="/contact">CONTACT</NavLink>
