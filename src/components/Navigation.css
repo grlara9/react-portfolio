@@ -48,6 +48,21 @@
     
   }
 
+  .drawer__title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  
+    border-bottom: 2px solid rgb(212, 206, 206);
+  }
+  .drawer__title h4{
+    font-weight: lighter;
+    color: rgb(189, 178, 178);
+    padding-bottom: 12px;
+    
+  }
+
 .nav-links{
     list-style: none;
     display: flex;
@@ -57,7 +72,7 @@
     width: 100%;
     height: 100;
     padding-right: 1rem;
-    
+    padding-top: 1rem;
 }
 .nav-links li{
     margin: 1rem;

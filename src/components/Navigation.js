@@ -26,13 +26,14 @@ const Navigation =( ) => {
         {drawerOpen && <Backdrop onClick={closeDrawerHandler} />}
         <SideDrawer show={drawerOpen} onClick={closeDrawerHandler}>
           <nav className="main-navigation__drawer-nav">
-          <div className="drawer__image"> 
+            <div className="drawer__image"> 
                 <img src={guillermo} alt="my profile picture" />
             </div>
-            <div className="title">
+            <div className="drawer__title">
                 <h2>Guillermo Lara</h2>
-                <h3>San Diego, CA</h3>
+                <h4>San Diego, CA</h4>
             </div>
+            
           <ul className="nav-links">
           <li>
                 <NavLink exact to="/">ABOUT ME</NavLink>
