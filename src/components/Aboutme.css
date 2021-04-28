@@ -48,10 +48,11 @@
   transition: all .1s ease-in-out;
   transform: scale(1.09);
 }
-@media (max-width: 375px) {
+@media (max-width: 415px) {
   .aboutme__info{
     width: 100%;
     padding: 10px;
+   
    }
 
    .aboutme__info p{
