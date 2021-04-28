@@ -20,8 +20,8 @@ const Aboutme =()=>{
     
             </div>
             <div className="aboutme__links">
-                <p><a href="https://www.linkedin.com/in/guillermo-lara-7a0147161/"><GitHubIcon className="links"/></a>  | 
-               <a href="https://github.com/grlara9"><LinkedInIcon className="links"/> </a> </p>
+                <p><a href="https://www.linkedin.com/in/guillermo-lara-7a0147161/"><LinkedInIcon className="links"/></a>  | 
+               <a href="https://github.com/grlara9"><GitHubIcon className="links"/> </a> </p>
             </div>
         </div>
         </div>

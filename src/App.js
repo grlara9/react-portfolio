@@ -3,7 +3,7 @@ import Aboutme from './components/Aboutme'
 import Portfolio from './components/Portfolio'
 import Contact from './components/Contact'
 
-import { BrowserRouter as Router, Route, Redirect, Switch, Link} from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import './App.css';
 
 function App() {
