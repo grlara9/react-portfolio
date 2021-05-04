@@ -6,6 +6,10 @@ import guillermo from '../images/guillermo.jpg'
 import Header from './Header'
 import Backdrop from './Backdrop'
 import SideDrawer from './SideDrawer'
+
+import ContactMailOutlinedIcon from '@material-ui/icons/ContactMailOutlined';
+import PersonOutlineSharpIcon from '@material-ui/icons/PersonOutlineSharp';
+
 import './Navigation.css'
 
 const Navigation =( ) => {
@@ -36,11 +40,12 @@ const Navigation =( ) => {
             
           <ul className="nav-links">
           <li>
-                <NavLink exact to="/">ABOUT ME</NavLink>
+            <NavLink exact to="/">< PersonOutlineSharpIcon  />  ABOUT ME</NavLink>
+            
             </li> 
 
             <li>
-                <NavLink to="/contact">CONTACT</NavLink>
+                <NavLink to="/contact"><ContactMailOutlinedIcon />  CONTACT</NavLink>
             </li>
         
             
