@@ -6,9 +6,9 @@ import guillermo from '../images/guillermo.jpg'
 import Header from './Header'
 import Backdrop from './Backdrop'
 import SideDrawer from './SideDrawer'
-
 import ContactMailOutlinedIcon from '@material-ui/icons/ContactMailOutlined';
 import PersonOutlineSharpIcon from '@material-ui/icons/PersonOutlineSharp';
+import WorkOutlineOutlinedIcon from '@material-ui/icons/WorkOutlineOutlined';
 
 import './Navigation.css'
 
@@ -50,7 +50,7 @@ const Navigation =( ) => {
         
             
             <li>
-                <NavLink to="/portfolio">PORTFOLIO</NavLink>
+                <NavLink to="/portfolio"><WorkOutlineOutlinedIcon />PORTFOLIO</NavLink>
             </li>
             <li>
                 <a href="https://www.linkedin.com/in/guillermo-lara-7a0147161/">
