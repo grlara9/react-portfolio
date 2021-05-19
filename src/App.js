@@ -13,15 +13,17 @@ return (
       <Navigation />
       <main>
         <Switch>
+        <Route exact path="/"> 
+            <Aboutme />
+          </Route>
+
           <Route path="/portfolio">
             <Portfolio />
           </Route>
           <Route path="/contact">
             <Contact/>
           </Route>
-          <Route exact path="/"> 
-            <Aboutme />
-          </Route>
+         
         </Switch>
       </main>
     </Router>
