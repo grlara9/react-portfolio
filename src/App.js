@@ -6,7 +6,7 @@ import Contact from './components/Contact'
 import { BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import './App.css';
 
-function App() {
+export default function App() {
 return (
   <div className="App">
     <Router>
@@ -29,4 +29,4 @@ return (
   );
 }
 
-export default App;
+

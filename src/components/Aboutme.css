@@ -19,15 +19,22 @@
   max-width: 400px;
   height: auto;
   margin-bottom: 15px;
+  border-radius: 20%;
 }
 
 .aboutme__info{
  width: 500px;
  padding: 10px;
 }
+
+.aboutme__info h2{
+  color:rgb(74, 78, 87);
+  color:
+
+}
 .aboutme__info p{
   padding-top:8px;
-  
+  color:rgb(127, 141, 170);
 }
 
 .aboutme__links{

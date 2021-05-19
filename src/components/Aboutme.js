@@ -16,7 +16,7 @@ const Aboutme =()=>{
             <div className="aboutme__info"> 
                 <h1>Guillermo Lara</h1>
                 <h2>Full Stack Developer/ React Developer</h2> 
-                <p>Hi, I'm Guillermo, I'm a full stack developer living in San Diego</p>
+                <p>Hi, I'm <span style={{color: 'rgb(227, 64, 95)', fontWeight: 'bolder'}}>Guillermo,</span>, I'm a full stack developer living in San Diego</p>
     
             </div>
             <div className="aboutme__links">
