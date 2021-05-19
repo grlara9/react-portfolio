@@ -54,11 +54,11 @@ const Navigation =( ) => {
             </li>
             <li>
                 <a href="https://www.linkedin.com/in/guillermo-lara-7a0147161/">
-                    <LinkedInIcon />
+                <img src="https://img.icons8.com/color/48/000000/linkedin-circled--v1.png" />
             </a>
-            </li>
+            </li> 
             <li>
-                <a href="https://github.com/grlara9"><GitHubIcon /></a>
+                <a href="https://github.com/grlara9"><img src="https://img.icons8.com/color/48/000000/github--v1.png" /></a>
             </li>
         </ul>
               
