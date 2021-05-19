@@ -20,11 +20,13 @@ const Aboutme =()=>{
     
             </div>
             <div className="aboutme__links">
-                <p><a href="https://www.linkedin.com/in/guillermo-lara-7a0147161/"><LinkedInIcon className="links"/></a>  | 
-               <a href="https://github.com/grlara9"><GitHubIcon className="links"/> </a> </p>
+                <p><a href="https://www.linkedin.com/in/guillermo-lara-7a0147161/"><img src="https://img.icons8.com/color/48/000000/linkedin-circled--v1.png" className="links"
+                /></a>  | 
+               <a href="https://github.com/grlara9"><img src="https://img.icons8.com/color/48/000000/github--v1.png" className="links"/> </a> </p>
             </div>
         </div>
         </div>
+        
     );
 }
 export default Aboutme
