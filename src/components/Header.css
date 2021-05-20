@@ -9,9 +9,10 @@
     left: 0;
     z-index: 5;
     padding: 0 1rem;
-    background: #42242e;
+    
+    background: rgb(216, 59, 72)
 }
-
+ 
 main {
   margin-top: 6rem;
 }
