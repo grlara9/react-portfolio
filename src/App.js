@@ -13,18 +13,16 @@ return (
       <Navigation />
       <main>
         <Switch>
-        <Route exact path="/"> 
-            <Aboutme />
-          </Route>
-
           <Route path="/portfolio">
             <Portfolio />
           </Route>
           <Route path="/contact">
             <Contact/>
           </Route>
-         
-        </Switch>
+          <Route path="/"> 
+            <Aboutme />
+          </Route>
+         </Switch>
       </main>
     </Router>
   </div>
