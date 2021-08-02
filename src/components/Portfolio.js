@@ -4,11 +4,32 @@ import googlemern from '../images/google-mern.png'
 import click from '../images/dbz2.png'
 import weatherapp from '../images/weatherapp.png'
 import burger from '../images/bur.png'
+import movies from '../images/movies.png'
 import './Portfolio.css'; 
 
 const Portfolio =()=>{
     return(
         <div className="portfolio">
+
+<div className="project">
+                <div className="project__image">
+                <a href="https://grlara9.github.io/search-movie/">
+                    <img src={movies} alt="project image" />
+                       
+                    </a>
+                    <h1>Movie Search App</h1>
+                </div>
+                <div className="project__specification">
+                    <p>React movie app were users can search for movies from a real API and saving to local storage</p>
+                </div>
+                <div className="project__links">
+                   
+                    <a href="https://github.com/grlara9/search-movie">
+                        <button class="views btn btn-lg btn-outline-secondary">View</button>
+                    </a>
+                </div>
+            </div>
+
             <div className="project">
                 <div className="project__image">
                     <a href="https://googlesearchappp.herokuapp.com/">
