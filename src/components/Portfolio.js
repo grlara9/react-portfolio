@@ -10,7 +10,7 @@ import './Portfolio.css';
 const Portfolio =()=>{
     return(
         <div className="portfolio">
-
+ 
 <div className="project">
                 <div className="project__image">
                 <a href="https://grlara9.github.io/search-movie/">
